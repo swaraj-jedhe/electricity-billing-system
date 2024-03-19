@@ -1,7 +1,9 @@
 <?php
-    $host='localhost'; # MySQL Host
-    $mysql_user="root";# MySql Username
-    $mysql_pwd=""; # MySql Password
+    $host='myebillsvr.mysql.database.azure.com
+';
+# MySQL Host
+    $mysql_user="myadmin";# MySql Username
+    $mysql_pwd="Server@1"; # MySql Password
     $dbms="ebillsystem"; # Database
 
     $con = mysqli_connect($host,$mysql_user,$mysql_pwd,$dbms);
